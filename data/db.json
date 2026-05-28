@@ -1,0 +1,192 @@
+{
+  "departments": [
+    {
+      "id": "cs",
+      "name": "Computer Science & Engineering",
+      "code": "CSE"
+    },
+    {
+      "id": "me",
+      "name": "Marine Engineering",
+      "code": "MRE"
+    },
+    {
+      "id": "ph",
+      "name": "School of Pharmacy",
+      "code": "PHM"
+    },
+    {
+      "id": "ba",
+      "name": "Business Administration",
+      "code": "BBA"
+    },
+    {
+      "id": "ro",
+      "name": "Robotics & Automation",
+      "code": "ROB"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "cs101",
+      "name": "Introduction to Python Programming",
+      "code": "CS101",
+      "department": "Computer Science & Engineering"
+    },
+    {
+      "id": "cs302",
+      "name": "Design & Analysis of Algorithms",
+      "code": "CS302",
+      "department": "Computer Science & Engineering"
+    },
+    {
+      "id": "mre101",
+      "name": "Marine Auxiliary Machinery",
+      "code": "MRE101",
+      "department": "Marine Engineering"
+    },
+    {
+      "id": "mre305",
+      "name": "Ship Safety & Environment Regulation",
+      "code": "MRE305",
+      "department": "Marine Engineering"
+    },
+    {
+      "id": "phm101",
+      "name": "Pharmaceutics - I (General)",
+      "code": "PHM101",
+      "department": "School of Pharmacy"
+    },
+    {
+      "id": "bba201",
+      "name": "Organizational Behavior & HR",
+      "code": "BBA201",
+      "department": "Business Administration"
+    },
+    {
+      "id": "rob204",
+      "name": "Robot Kinematics & Manipulators",
+      "code": "ROB204",
+      "department": "Robotics & Automation"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "email": "student@neotia.edu.in",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "name": "Rohan Sen",
+      "role": "user",
+      "points": 120,
+      "badges": [],
+      "verified": true,
+      "joinedAt": "2026-05-01T09:00:00Z",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=Rohan"
+    },
+    {
+      "id": "user-2",
+      "email": "admin@neotia.edu.in",
+      "passwordHash": "6051fc84a7a0d74c225fb18a496b09952da5642e60723ecae543298edd7d82d6",
+      "name": "Registrar TNU",
+      "role": "admin",
+      "points": 1000,
+      "badges": [],
+      "verified": true,
+      "joinedAt": "2026-01-01T00:00:00Z",
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=Registrar"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-1",
+      "title": "TNU Python Programming End-Term Exam 2025",
+      "department": "Computer Science & Engineering",
+      "semester": 2,
+      "subjectName": "Introduction to Python Programming",
+      "subjectCode": "CS101",
+      "university": "The Neotia University",
+      "year": 2025,
+      "examType": "Final",
+      "tags": ["Python", "Recursion", "Data Structures", "OOPs"],
+      "fileUrl": "",
+      "fileName": "CS101_TNU_2025.png",
+      "fileSize": "310 KB",
+      "uploaderId": "user-2",
+      "uploaderName": "Registrar TNU",
+      "status": "approved",
+      "views: ": 412,
+      "views": 412,
+      "downloads": 182,
+      "commentsCount": 0,
+      "bookmarksCount": 35,
+      "questions": [
+        "Write a recursive function in Python to solve the Fibonacci sequence up to index N and state its computational time complexity.",
+        "Compare mutable and immutable data types in Python with suitable demonstrations (Lists, Tuples, Dictionaries, Strings).",
+        "Demonstrate pythonic polymorphism and inheritance by building a custom Student class representing The Neotia University registration guidelines."
+      ],
+      "createdAt": "2026-05-12T10:00:00Z"
+    },
+    {
+      "id": "paper-2",
+      "title": "TNU Marine Auxiliary Machinery I Mid-Term 2024",
+      "department": "Marine Engineering",
+      "semester": 4,
+      "subjectName": "Marine Auxiliary Machinery",
+      "subjectCode": "MRE101",
+      "university": "The Neotia University",
+      "year": 2024,
+      "examType": "Midterm",
+      "tags": ["Pumps", "Compressor", "Valves", "Ship Mechanics"],
+      "fileUrl": "",
+      "fileName": "MRE101_Aux_2024.png",
+      "fileSize": "224 KB",
+      "uploaderId: ": "user-2",
+      "uploaderId": "user-2",
+      "uploaderName": "Registrar TNU",
+      "status": "approved",
+      "views": 215,
+      "downloads": 74,
+      "commentsCount": 0,
+      "bookmarksCount": 18,
+      "questions": [
+        "Describe the operating principle of a reciprocating bilge pump on cargo vessels. Draw standard system isolation line sketches.",
+        "Evaluate standard vessel compressor air-delivery safety standards according to modern SOLAS regulations.",
+        "Explain cavitation inside centrifugal salt-water cooling pumps and outline practical prevention measures on shipboard installations."
+      ],
+      "createdAt": "2026-05-14T08:15:00Z"
+    },
+    {
+      "id": "paper-3",
+      "title": "TNU School of Pharmacy General Pharmaceutics I 2024",
+      "department": "School of Pharmacy",
+      "semester": 1,
+      "subjectName": "Pharmaceutics - I (General)",
+      "subjectCode": "PHM101",
+      "university": "The Neotia University",
+      "year": 2024,
+      "examType": "Final",
+      "tags": ["Pharmaceutics", "Formulations", "Dosage Form", "Metrology"],
+      "fileUrl": "",
+      "fileName": "PHM101_Pharm_2024.png",
+      "fileSize": "425 KB",
+      "uploaderId": "user-2",
+      "uploaderName": "Registrar TNU",
+      "status": "approved",
+      "views": 184,
+      "downloads": 93,
+      "commentsCount": 0,
+      "bookmarksCount": 21,
+      "questions": [
+        "Classify various dosage forms with representative clinical examples. Distinguish liquid monophasic systems from biphasic emulsions.",
+        "Derive standard calculations for alcohol dilution percentages and pediatric drug dosage adjustments using Young's formula.",
+        "Describe key formulation excipients used in suspension stabilization. Outline role of flocculating agents in detail."
+      ],
+      "createdAt": "2026-05-18T14:22:00Z"
+    }
+  ],
+  "comments": [],
+  "notifications": [],
+  "reports": []
+}

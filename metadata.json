@@ -1,0 +1,6 @@
+{
+  "name": "The Neotia University Question Vault",
+  "description": "Streamlined question paper vault for students of The Neotia University. Easily upload, organize, and study past exam paper pictures in a clean directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
